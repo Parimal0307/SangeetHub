@@ -1,0 +1,40 @@
+form{
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.searchField{
+    border: 1px solid var(--grayish-purple);
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+}
+.searchField input{
+    padding: 5px 10px;
+    margin-left: 5px;
+    border: none;
+    width: 100%;
+    outline: none;
+}
+
+.searchField button{
+    border: none;
+    background-color: var(--medium-lavender);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 0 4px 4px 0;
+}
+
+.searchField button:hover{
+    background-color: var(--dusty-purple);
+}
+
+#msg{
+    margin-left: 10px;
+    font-weight: 500;
+    color: var(--dark-gray)
+}
