@@ -66,6 +66,7 @@ SangeetHub is a music-themed social web platform that allows users to share, exp
 
 ## 🧩 Folder Structure
 
+<pre>
 sangeethub/
 │
 ├── actions/               # Backend action handlers (like, save, comment)
@@ -77,6 +78,8 @@ sangeethub/
 ├── index.php              # Main entry point
 ├── style.css              # Common styling
 └── README.md
+</pre>
+
 
 ---
 
